@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windowsuser.japanforyou">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fragment.CultureFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HiraganaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Content_Topic.Topic_0.Menu_0Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Content_Topic.Topic_0.AlphabetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KatakanaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Content_Topic.Topic_0.RecommendHKActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Content_Topic.Topic_0.GreetingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Content_Topic.Topic_0.Menu_1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TalkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other1_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other2_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other3_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other4_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other5_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.Tab_language.Other6_Tab2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VocabularyActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Culture.MusicActivity" />
+        <activity android:name=".Culture.LanguageActivity" />
+        <activity android:name=".Culture.CurvatureActivity" />
+        <activity android:name=".Culture.ShoesActivity" />
+        <activity android:name=".Culture.CourtesyActivity" />
+        <activity android:name=".Culture.NoiseActivity" />
+        <activity android:name=".Culture.ConfressionActivity" />
+        <activity android:name=".Culture.RelegionActivity" />
+        <activity android:name=".Culture.JapanLanguageActivity" />
+        <activity android:name=".Culture.NoodleActivity" />
+        <activity android:name=".Culture.SportActivity" />
+        <activity android:name=".Culture.FoodActivity"></activity>
+    </application>
+
+</manifest>

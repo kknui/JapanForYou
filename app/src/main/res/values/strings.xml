@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Japan For You</string>
+    <string name="title_activity_main">Japan For You</string>
+    <string name="title_home">หน้าเเรก</string>
+    <string name="title_dashboard">ภาษา</string>
+    <string name="title_notifications">วัฒนธรรม</string>
+    <string name="title_about">เกี่ยวกับ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_other1__tab2_">Other1_Tab2_Activity</string>
+
+    <!-- หัวข้อหลัก -->
+</resources>

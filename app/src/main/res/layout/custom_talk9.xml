@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewp6"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/cardView6"
+        android:layout_toEndOf="@+id/cardView6"
+        app:srcCompat="@drawable/mascot_5" />
+
+    <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+        android:id="@+id/textViewp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="โรดริโก"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageViewp6"
+        android:layout_alignEnd="@+id/imageViewp6" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="270dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="           อ่านหนังสือครับ \nผมชอบนวนิยายประวัติศาสตร์เป็นพิเศษครับ"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/font_Thai21" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   DOKUSHO DESU. \n TOKUNI REKISHI SHÔSETSU GA SUKI DESU."
+                android:textSize="12sp"
+                android:layout_above="@+id/font_Thai20"
+                android:layout_alignStart="@+id/font_Thai22"
+                android:layout_marginBottom="8dp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="読書です。特に歴史小説が好きです。"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

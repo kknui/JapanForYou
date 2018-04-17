@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar2"
+        android:background="@drawable/y1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="52dp"
+            app:cardCornerRadius="10dp"
+            android:layout_below="@+id/cardView3"
+            android:layout_alignStart="@+id/cardView3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="ตัวอักษรในภาษาญี่ปุ่น"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="33sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="183dp"
+            app:cardCornerRadius="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="การทักท้ายในชีวิตประจำวัน"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="ปฐมบท"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

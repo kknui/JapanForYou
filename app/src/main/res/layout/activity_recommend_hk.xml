@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windowsuser.japanforyou.Content_Topic.Topic_0.RecommendHKActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@android:color/background_light" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1400dp"
+            android:orientation="vertical">
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai11"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai13"
+                android:layout_below="@+id/font_Thai13"
+                android:layout_marginTop="8dp"
+                android:text="\t\tคะตะกะนะ เป็นตัวอักษรสำหรับแทนเสียงในภาษาญี่ปุ่นประเภทหนึ่ง คะตะกะนะถูกนำไปเขียนภาษาไอนุซึ่งเป็นภาษาของชนกลุ่มน้อยอยู่ทางภาคเหนือของเกาะฮอกไกโด"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai13"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai10"
+                android:layout_below="@+id/font_Thai10"
+                android:layout_marginTop="16dp"
+                android:text="คะตะกะนะ"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai16"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai10"
+                android:layout_below="@+id/font_Thai10"
+                android:layout_marginTop="16dp"
+                android:text="คะตะกะนะ"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai10"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai7"
+                android:layout_below="@+id/font_Thai7"
+                android:layout_marginTop="12dp"
+                android:text="\t\tมี 4 ลักษณะ คือ ฮิรางานะ คะตะคะนะ คันจิ และ โรมันจิ เราจำแนกตัวอักษรญี่ปุ่นออกเป็นสองจำพวก คือ กลุ่มตัวอักษรที่ใช้แทนเสียง ซี่งได้แก่ ฮิระงะนะและคะตะคะนะ กับกลุ่มตัวอักษรที่แสดงความหมายที่เรียกว่า คันจิ โดยใช้ร่วมกับตัวเลขอารบิก และตัวอักษรโรมัน ซึ่งจะมีความหลากหลายมากกว่าภาษาที่ใช้ในประเทศใกล้เคียง เช่น ภาษาจีนซึ่งใช้ตัวอักษรจีนเป็นหลัก ส่วนภาษาเกาหลีก็จะใช้อักษรฮันกึลเป็นหลัก\n  \t\tเนื่องจากตัวคันจิซึ่งญี่ปุ่นรับมาจากภาษาจีนมีจำนวนมาก บางครั้งมีการใช้ตัวอักษรที่คนส่วนใหญ่ไม่ทราบ กระทรวงศึกษาธิการของรัฐบาลจึงได้กำหนดมาตรฐานของตัวคันจิ ซึ่งเรียกว่า โจโยคันจิ ประกอบด้วยตัวอักษร 1,945 ตัว เป็นตัวคันจิที่คนญี่ปุ่นทั่วไปทราบกันดี โดยไม่จำเป็นต้องเขียนคำอ่านกำกับ "
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai9"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai4"
+                android:layout_below="@+id/font_Thai4"
+                android:layout_marginTop="19dp"
+                android:text='\t\tฮิระงะนะ คือ อักษรในภาษาญี่ปุ่น ซึ่งเป็นหนึ่งในสามของอักษรญี่ปุ่นที่ใช้ในปัจจุบันควบคู่กับ คะตะคะนะ และ คันจิ ซึ่งฮิระงะนะ และคะตะคะนะ ทั้งคู่เป็นระบบคะนะที่ตัวอักษรหนึ่งตัวแสดงถึงหนึ่งเสียง ในแต่ละ"คะนะ"สามารถเป็นได้ทั้งในรูปสระและตัวสะกด'
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai7"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai5"
+                android:layout_below="@+id/font_Thai5"
+                android:layout_marginTop="11dp"
+                android:text="ตัวอักษร"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai15"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai5"
+                android:layout_below="@+id/font_Thai5"
+                android:layout_marginTop="11dp"
+                android:text="ตัวอักษร"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai4"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai11"
+                android:layout_below="@+id/font_Thai11"
+                android:layout_marginTop="22dp"
+                android:text="ฮิระงะนะ "
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai17"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai11"
+                android:layout_below="@+id/font_Thai11"
+                android:layout_marginTop="22dp"
+                android:text="ฮิระงะนะ "
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai5"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/font_Thai3"
+                android:layout_below="@+id/font_Thai3"
+                android:layout_marginTop="8dp"
+                android:text="\t\tคำภาษาญี่ปุ่นได้รับอิทธิพลมาจากภาษาต่างประเทศเป็นอย่างมาก โดยเฉพาะภาษาจีน ที่ได้นำมาเผยแพร่มาในประเทศญี่ปุ่นเมื่อกว่า 1,500 ปีที่แล้ว และตั้งแต่คริสต์ศตวรรษที่ 19 เป็นต้นมา ก็ได้มีการยืมคำจากภาษาต่างประเทศที่ไม่ใช่ภาษาจีนมาใช้อีกเป็นจำนวนมาก โดยเฉพาะภาษากลุ่มอินโด-ยูโรเปียน เช่นคำที่มาจากภาษาดัตช์ ビール (bier แปลว่า เบียร์) และ コーヒー (koffie แปลว่า กาแฟ)"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/font_Thai2"
+                android:layout_marginEnd="8dp"
+                android:text="\t\tภาษาญี่ปุ่น เป็นภาษาทางการของประเทศญี่ปุ่น ปัจจุบันมีผู้ใช้ทั่วโลกราว 130 ล้านคน นอกเหนือจากประเทศญี่ปุ่นแล้ว รัฐอังกาอูร์ สาธารณรัฐปาเลา ได้กำหนดให้ภาษาญี่ปุ่นเป็นภาษาทางการภาษาหนึ่ง นอกจากนี้ภาษาญี่ปุ่นยังถูกใช้ในหมู่ชาวญี่ปุ่นที่ย้ายไปอยู่นอกประเทศ นักวิจัยญี่ปุ่น และนักธุรกิจต่างๆ"
+                android:textSize="24sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:text="ภาษาญี่ปุ่น "
+                android:textSize="30sp" />
+
+            <com.example.windowsuser.japanforyou.Font_Thai.Font_Thai
+                android:id="@+id/font_Thai14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:text="ภาษาญี่ปุ่น "
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
